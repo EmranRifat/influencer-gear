@@ -1,0 +1,62 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+    font-weight: 700;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: rgba(76, 97, 97, 0.308);
+    padding-top: 15px;
+    border-radius: 10px;
+}
+#navber-text{
+    font-size: 25px;
+    margin-left: 10%;
+    padding-bottom: 10px;
+}
+.button1{
+    text-decoration: none;
+    background-image: linear-gradient(rgba(221, 17, 51, 0.904),rgb(197, 17, 77));
+    color: white;
+    padding: 10px 50px;
+    border-radius: 30px;
+    font-weight: 300;
+    
+}
+.section-one{
+    display: flex;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+.top{
+    width: 50%;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+
+.title-one{
+    font-size: 40px;
+    font-weight:900px;
+
+}
+.main-camera{
+    width: 50%;
+    margin-top: 50px;
+    padding-left: 100px;
+    margin-left: 90px;
+    
+}
+.influncer{
+    color: rgb(223, 107, 13);
+    font-size: 45px;
+}
