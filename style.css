@@ -51,12 +51,45 @@ nav{
 }
 .main-camera{
     width: 50%;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding-left: 100px;
     margin-left: 90px;
+
+    /* position: absolute; */
+    width: 440px;
+    height: 414px;
     
 }
 .influncer{
     color: rgb(223, 107, 13);
     font-size: 45px;
+}
+
+.logos{
+    display: flex;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    justify-content: center;
+    justify-content:space-evenly;
+    margin-top: 90px;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color:#AEAEAE;
+}
+.item-rating{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.items{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
 }
