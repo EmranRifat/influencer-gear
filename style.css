@@ -1,6 +1,8 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-image: url(images/design1.jpg.jpg);
 }
+
 nav a{
     text-decoration: none;
     color: black;
@@ -12,10 +14,12 @@ nav{
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    background-color: rgba(76, 97, 97, 0.308);
+    background-color: rgba(87, 133, 133, 0.541);
     padding-top: 15px;
     border-radius: 10px;
+
 }
+
 #navber-text{
     font-size: 25px;
     margin-left: 10%;
@@ -30,6 +34,32 @@ nav{
     font-weight: 300;
     
 }
+.main-camera{
+    width: 50%;
+    /* margin-top: 50px; */
+    padding-left: 100px;
+    margin-left: 90px;
+
+    /* position: absolute; */
+    height: 414px;
+    
+}
+
+.main-camera img{
+    transition: transform 2s;
+
+}
+
+.main-camera img:hover{
+  
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
 .section-one{
     display: flex;
     background-image: url(images/Circle\ design.svg);
@@ -49,17 +79,7 @@ nav{
     font-weight:900px;
 
 }
-.main-camera{
-    width: 50%;
-    /* margin-top: 50px; */
-    padding-left: 100px;
-    margin-left: 90px;
 
-    /* position: absolute; */
-    width: 440px;
-    height: 414px;
-    
-}
 .influncer{
     color: rgb(223, 107, 13);
     font-size: 45px;
@@ -74,9 +94,49 @@ nav{
     margin-top: 90px;
     width: 80%;
     margin-left: 10%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+
+.items{
+
+
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    grid-gap:40px;
+    margin-right: 300px;
+    margin-left: 300px;
+
+}
+.item{
+    box-shadow: 10px 10px 20px gray;
+    transition: 0.5s;
+    width: 250px;
+    height:450px;
+    left: 55px;
+    top: 1035px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin:8px;
+    
+    
+    
+}
+.item:hover{
+    background-color: rgba(88, 131, 131, 0.767);
+    
+
+}
+.item img{
+    width: 100%;
+}
+.container{
+    margin-bottom: 50%;
+}
+
 .fa-star.filled{
     color: #FFC014;
 }
@@ -88,8 +148,34 @@ nav{
     justify-content: space-between;
 
 }
+footer{
+    text-align: center;
+    background-color:#0a1424;
+    color: white;
+    height: 300px;
+}   
+.fab{
+        color:white;
+        background-color: rgba(128, 128, 128, 0.445);
+        display: inline-block;
+        border-radius: 50%;
+        box-shadow: 0 0 1.5px #888;
+        padding: 0.5em 0.6em;
+        
+      
+      }
+      footer{
+          margin-top: 200px;
+      }
 
-.items{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-}
+      .line{
+          height: 200px;
+          width: 250px;
+
+      }
+      .lines{
+          display: flex;
+          text-align: center;
+          justify-content: space-around;
+          margin-top: 100px;
+
