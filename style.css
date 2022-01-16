@@ -8,17 +8,19 @@ nav a{
     color: black;
     margin-right: 25px;
     font-weight: 700;
+    margin-top: 10px;
     
 }
 nav{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 5px;
     background-color: rgba(87, 133, 133, 0.541);
     padding-top: 15px;
     border-radius: 10px;
 
 }
+
 
 #navber-text{
     font-size: 25px;
@@ -178,4 +180,115 @@ footer{
           text-align: center;
           justify-content: space-around;
           margin-top: 100px;
+      }
 
+      /*-----------------
+       mobile device 
+       -------------------*/
+
+
+
+    @media only screen and (max-width:576px) {
+        .section-one {
+            display: flex;
+            flex-direction: column-reverse;
+            width: 100%;
+            grid-template-columns: repeat(1,1fr);
+            /* margin-left: 50px; */
+           background-color:  rgba(97, 113, 204, 0.74);
+           margin-left: 30px;
+            
+        }
+        .main-camera img{
+            height: 300px;
+            width: 100%;
+            padding-top: 100px;
+            margin-right: 150px;
+            margin-left: -80px;
+            justify-content: center;
+
+        }
+        .logos{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            padding-left: 40px;
+
+        }
+        body{
+            margin-left: 0;
+        }
+        nav a{
+            display: none;
+        }
+        .top{
+            margin-left: 70px;
+        }
+        .container{
+            width: 100%;
+        }
+        .items{
+            grid-template-columns: repeat(1,1fr);
+            background-color: lawngreen;
+          
+
+        }
+        
+        .item{
+            margin-right: 150px;
+            flex-direction: column;
+            justify-content: center;
+            width: 180px;
+            height: 400px;
+
+        }
+        .lines { 
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            font-size: 12px;
+            padding-left: 81px;
+            margin-left: 100px;
+            width: 100px;
+        }
+        footer{
+            margin-left: 50px;
+        }
+    }
+
+    /* --------------------
+          tablet devices
+    ---------------------- */
+
+   
+    
+  @media only screen and (min-width:576px) and (max-width:992px)  {
+      .container{
+          background-color: rgba(255, 166, 0, 0.582);
+      }
+      
+      .section-one{
+          padding-left: 12%;
+
+      }
+      .logos{
+          padding-left: 10%;
+      }
+      .main-camera img{
+        height: 300px;
+        width: 100%;
+        padding-top: 100px;
+        margin-right: 150px;
+        margin-left: -80px;
+        justify-content: center;
+
+
+      }
+      .container{
+          width: 100%;
+      }
+      .items, .lines{
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 150px;
+
+      } 
+    
+} 
